@@ -7,6 +7,7 @@ import Nav from './Components/Navbar/Nav';
 function App() {
   return (
     <div className="App">
+      <Nav />
       <Banner />
     <Row title="Popular now!" isLargeRow  fetchUrl={requests.fetchPopular} />
     <Row title="Trending Now" fetchUrl={requests.fetchTrending} />

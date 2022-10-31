@@ -24,7 +24,7 @@ function Banner() {
   return (
     <>
         {loaded ? (
-            <header className='banner' style={{backgroundSize:"cover",backgroundImage:`url(${baseImageUrl}/${bannerMovie.backdrop_path})`,backgroundPosition:"center center"}}>
+            <header className='banner' style={{backgroundSize:"cover",backgroundImage:`url(${baseImageUrl}/${bannerMovie.backdrop_path})`,backgroundPosition:"center center",objectFit:"cover"}}>
             <div className="banner__contents">
             <h1 className='banner__title'>
                 
